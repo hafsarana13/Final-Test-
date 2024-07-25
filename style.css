@@ -1,0 +1,383 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.color{
+  color: rgb(4, 138, 190);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+.blcolor{
+  color: black;
+}
+.a{
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}
+.a:hover{
+  color: rgb(0, 140, 255);
+  transition: 0.5s;
+}
+.traver{
+height: 800px;
+width: 100%;
+background-image: url("./img/banner.jpeg") ;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.form{
+  width: 100px;
+  margin-left:170px;
+}
+.formtwo{
+  width: 20px;
+  margin-left:210px;
+}
+.firstbutton{
+  height: 40px;
+  width: 250px;
+  text-align: center;
+  background-color: rgb(0, 140, 255);
+  color: white;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 20px;
+}
+.uppernav{
+  height: auto;
+  width: 100%;
+}
+.mail{
+  color: gray;
+  font-family: 'Times New Roman', Times, serif;
+}
+.mail:hover{
+  color: rgb(0, 140, 255);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.images{
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 65px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.text-color{
+  font-size: 55px;
+  color:#fff;
+
+  margin-left: 170px;
+
+}
+.texcolor{
+  font-size: 75px;
+  color:#fff;
+  line-height: 30px;
+  margin-left: 170px;
+}
+h2{
+  margin-left: 270px;
+  color: #fff;
+}
+.loca1{
+  height: 40px; 
+  width: 425px;
+  border: none;
+  outline-color: none;
+  outline: none;
+  padding: 15px;  
+  color: rgb(0, 140, 255);
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.loca{
+  height: 40px;
+  width: 300px;
+  border: none;
+  outline-color: none;
+  outline: none;
+  padding: 15px;  
+  color: rgb(0, 140, 255);
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.findout{
+  height: auto;
+  width: 100%;
+}
+#hmm{
+  width: 1400px;
+  height: 500px;
+}
+.heading4{
+  text-align: center;
+  margin-top: -470px;
+  font-size: 40px;
+  color: white;
+  margin-left: 70px;
+}
+.heading5 {
+  text-align: center;
+  color: white;
+  margin-left: 80px;
+  font-size: 30px;
+}
+.circles-container {
+  display: flex; 
+  margin-left: 160px;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; 
+  background-color:none; 
+  border: 3px solid white;
+  margin: 10px; 
+  padding-top: 18px;
+  font-size: 40px;
+  color: #fff;
+}
+.circles-container {
+  text-align: center;
+  padding-top: -18px !important;
+  padding-left: 321px;
+}
+.circle {
+  display: inline-block;
+}
+#d{
+  margin-top: 89px;
+  margin-left: 70px;
+  color: #fff;
+}
+#h{
+  margin-left: 65px;
+  color: #fff;
+}
+.buttton2 {
+  margin: 159px 10px 10px 480px;
+  background-color: rgb(0 0 0);
+  color: white;
+  height: 44px;
+  width: 126px;
+  margin-top:30px;
+  margin-right: 450px;
+  border-radius: 6%;
+}
+.buttton2:hover{
+  color: black;
+  background-color: #fff;
+}  
+.card1{
+  height: auto;
+  width: auto;
+  box-sizing: border-box;
+  text-align: center;
+}
+.card1:hover{
+  transform: scale(1.07);
+}
+.button{
+  height: 40px;
+  width: 200px;
+  background-color: rgb(16, 100, 209);
+  color: white;
+  border: none;
+  outline: none;
+}
+.button:hover{
+  color: #fff;
+  background-color: #209ecf
+}
+span{
+  color :#209ecf;
+}
+.main2 {
+  background-color: #f8f9fa; 
+  padding: 20px;
+}
+.text-center {
+  text-align: center;
+}
+.black {
+  color: #000; 
+}
+.mail {
+  font-style: italic;
+  color: #555; 
+}
+.card {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease-in-out;
+   margin-left: 200px;
+  width: 300px;
+}
+.card:hover {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); 
+}
+.card-body {
+  padding: 20px;
+}
+.card-title {
+  color: #333; 
+  font-size: 24px;
+  font-weight: bold;
+  width: 100px;
+  align-items: center;
+}
+.card-text {
+  color: #666; 
+  font-size: 16px;
+  line-height: 1.6;
+  width: 200px;
+}
+.img-fluid {
+  width: 120px; 
+  height: 120px; 
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+max-width: 1000px;
+position: relative;
+margin: auto;
+}
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color:  #fff;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+background-color: #209ecf;
+}
+.fade {
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.prev, .next,.text {font-size: 11px}
+}
+.radiuspic{
+  border-radius: 50%;
+}
+.coma{
+  font-size: 30px;
+}
+.bluearea{
+  background-color: #1b2364;
+  width: auto;
+  height: auto;
+}
+.white1{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+}
+.joinbutt{
+  height: 40px;
+  width: 150px;
+  color:  #fff;
+  background-color: rgb(16, 6, 71);
+  border: none;
+  outline: none;
+}
+.white2{
+  font-size: 45px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:  #fff;
+}
+.white3{
+  font-size: 55px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:  #fff;
+}
+.piccolor{
+  width: auto;
+  height: auto;
+  background-position: center;
+  background-repeat: none;
+  background-color: #231f47;
+  background-size: cover;
+}
+.orangebutt{
+  background-color: rgb(230, 87, 35);
+  color:  #fff;
+  border: none;
+  outline: none;
+}
+.hm3{
+  color: #fff;
+}
+.dream{
+  background-color: #075299;
+  color: #fff;
+}
+
+.dream:hover{
+  background-color: #209ecf;
+}
